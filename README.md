@@ -1,2 +1,2 @@
 # Public
-Copper's Public LUA repository
+Open Source Repository for Generic (Roblox) Lua reference
