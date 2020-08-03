@@ -3,7 +3,7 @@
 
 -- color
 
-local function hsv_to_rgb(h, s, v)
+function hsv_to_rgb(h, s, v)
 	local r, g, b
 
 	local i = math_floor(h * 6);
@@ -25,7 +25,7 @@ local function hsv_to_rgb(h, s, v)
 	return r * 255, g * 255, b * 255
 end
 
-local function rgb_to_hsv(r, g, b)
+function rgb_to_hsv(r, g, b)
 	r, g, b = r / 255, g / 255, b / 255
 	local max, min = math.max(r, g, b), math.min(r, g, b)
 	local h, s, v
@@ -51,7 +51,7 @@ end
 
 -- Discord 
 
-local function SendWebhook(data)
+function SendWebhook(data)
     syn.request({
         Url = data["Webhook"],
         Method = "POST",
