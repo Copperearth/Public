@@ -1,5 +1,5 @@
 -- THIS FILE CONTAINS ALL OF OUR PROJECTS IN ONE, YOU CAN ADD IT INTO YOUR CODE WITH THE FOLLOWING LINE: 
--- loadstring(game:HttpGet('https://raw.githubusercontent.com/Copperearth/Public/master/Main.lua', true))()
+-- loadstring(game:HttpGet('https://raw.githubusercontent.com/Copperearth/Public/master/main.lua', true))()
 
 -- color
 
